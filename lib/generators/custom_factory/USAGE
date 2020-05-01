@@ -1,0 +1,8 @@
+Description:
+    This generator generates basic factory_bot factory with faker values and traits on un-nullable and referential columns
+
+Example:
+    rails generate custom_factory ModelName
+
+    This will create:
+        Will create factory_bot factory in spec/factories/models/model_name.rb
