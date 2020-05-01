@@ -14,3 +14,5 @@ Blank rails api set up for my liking with
 * Factory Bot
 
 * Faker
+
+* Custom factory generator
