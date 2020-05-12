@@ -1,0 +1,8 @@
+Description:
+    Generates simple model specs according to what is described in models
+
+Example:
+    rails generate custom_model_spec Model
+
+    This will create:
+        Will create rspec model spec in spec/models/model_name_spec.rb

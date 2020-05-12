@@ -1,0 +1,16 @@
+require 'rails_helper'
+
+RSpec.describe <%= class_name %>, type: :model do
+  <%= valid_instance_spec %>
+  <%= enums_specs unless model.defined_enums.blank? %>
+  <% if validations_count.positive? %>
+  describe 'validations' do
+    <%= validations_specs %>
+  end
+  <% end %>
+  <% if relations.present? %>
+  describe 'associations' do
+    <%= associations_specs %>
+  end
+  <% end %>
+end
