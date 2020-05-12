@@ -16,3 +16,5 @@ Blank rails api set up for my liking with
 * Faker
 
 * Custom factory generator
+
+* Custom simple model spec generator
